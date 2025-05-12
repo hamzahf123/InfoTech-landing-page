@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width:100%;
+} 
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}  
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}   
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;            
+} 
+#nav1 h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+#nav1 i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+
+}
+#nav2 h1{
+          font-weight: 500;
+          font-size: 22px;
+          text-transform: uppercase;
+}
+#nav3 button{
+    padding: 7px 12px;
+    border-radius:50px ;
+    border: 1.5px solid black;
+    font-size: 15px;
+    font-weight: 600;
+}
+ #button2{
+    background-color: orangered;
+    color: white;
+}
+#main>h1{
+    font-size:100px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+}
+img{
+    height: 230px;
+    width: 240px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-7deg);
+}
+#btmleft{
+    position: absolute;
+    bottom: 5%;
+    left:3% ;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#btmcenter{
+    position: absolute;
+    bottom: 1.5%;
+    left:47% ;
+    font-size: 40px;
+    font-weight: 40;
+    color: gray;
+    border: 1.7px solid black;
+    border-radius: 700px;
+
+}
+#btmright{
+    position: absolute;
+    bottom: 5%;
+    left:84% ;
+    font-size: 19px;
+    font-weight: 500;
+
+
+}
+
+#btmright2{
+    position: absolute;
+    bottom: 10%;
+    left:88% ;
+    font-size: 27px;
+    font-weight: 7;
+}
+#btmright3{
+    position: absolute;
+    bottom: 10%;
+    left:91% ;
+    font-size: 27px;
+    font-weight: 7;
+}
+#btmright4{
+    position: absolute;
+    bottom: 10%;
+    left:94% ;
+    font-size: 27px;
+    font-weight: 7;
+}
